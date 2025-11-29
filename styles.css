@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+
+
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+@media(max-width:576px) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+#img1 {
+    margin-top: 15px;
+    width: 170px;
+    height: 220px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(38, 255, 0);
+    border-radius: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+
+}
+
+#img1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#boxtype {
+    margin: 40px auto;
+    width: 85%;
+    background-color: #000000ee;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+}
+
+#boxtype:hover {
+    transform: scale(1.05);
+    transition: 2s;
+}
+
+hr {
+    border-color: #1ee839;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+#div1 {
+    padding: 20px;
+    margin: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1ee839;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+button:hover {
+    background-color: #1ee839;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.socilicons a {
+    color: #000000;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.socilicons a:hover {
+    color: #1ee839;
+    transform: scale(1.2);
+}
+
+ul li img {
+    width: 150px;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills-img {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.card {
+    display: inline;
+    width: 200px;
+    flex-wrap: initial;
+    justify-content: center;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.boxtype {
+    display: flex;
+    float: inline-start;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #80ea60;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 4px 1px #42db14;
+}
+
+
+
+.navbar ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar ul li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+
+
+.nav-right {
+    margin-left: auto;
+    display: flex;
+}
+
+.my {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.my :hover {
+    color: #1ee839;
+}
+
+.box {
+
+    width: 250px;
+    height: 250px;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+    border: #191919;
+    transform: scale(1.05);
+    transition: 2s;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items {
+    align-items: center;
+    padding: 15px;
+}
+
+h2 {
+    color: #1ee839;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.edu-img {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
