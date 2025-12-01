@@ -19,3 +19,11 @@ function dateAlert() {
 }
 
 dateAlert();
+
+function showConfirm() {
+    let isOk = confirm("Do you want to see my about ?");
+
+    if(isOk) {
+        window.location.assign("about.html");
+    }
+}

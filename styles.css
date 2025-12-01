@@ -152,10 +152,13 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .navbar ul li a:hover:not(.active) {
-    background-color: #ffffff;
+    transform: scale(1.1);
+    transition: 2s;
+    color: #ccc;
 }
 
 
@@ -176,7 +179,7 @@ ul {
 }
 
 .my :hover {
-    color: #1ee839;
+    color: #000000;
 }
 
 .box {
